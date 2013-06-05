@@ -1,0 +1,40 @@
+{
+    "name": "musicbrainz_collate",
+    "abstract": "Provides Unicode Collation Algorithm support",
+    "description": "Support for the standard Unicode Collation Algorithm for text ordering, from Unicode Technical Report #10.",
+    "version": "1.0.0",
+    "release_status": "stable",
+
+    "maintainer": "Oliver Charles <ollie@ocharles.org.uk>",
+    "generated_by": "Marti Raudsepp <marti@juffo.org>",
+    "provides": {
+        "musicbrainz_collate": {
+            "abstract": "Provides Unicode Collation Algorithm support",
+            "file": "sql/musicbrainz_collate.sql",
+            "docfile": "README.musicbrainz_collate.md",
+            "version": "1.0.0"
+        }
+    },
+    "license": {
+        "gpl_2": "http://www.gnu.org/licenses/gpl-2.0.html"
+    },
+    "tags": [
+        "musicbrainz", "unicode", "icu", "collate", "collation", "sort",
+        "order"
+    ],
+    "resources": {
+        "bugtracker": {
+            "web": "http://tickets.musicbrainz.org/browse/MBS"
+        },
+        "repository": {
+            "url": "git://github.com/metabrainz/postgresql-musicbrainz-collate.git",
+            "web": "https://github.com/metabrainz/postgresql-musicbrainz-collate",
+            "type": "git"
+        }
+    },
+
+    "meta-spec": {
+        "version": "1.0.0",
+        "url": "http://pgxn.org/meta/spec.txt"
+    }
+}
